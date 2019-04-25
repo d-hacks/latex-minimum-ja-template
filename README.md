@@ -18,8 +18,8 @@ rm -rf README.md
 ```
 zip ja-tmplate.zip -r ./
 ```
-- OverleafにUpload
+- OverleafにUpload  
 [Overleaf](https://www.overleaf.com/project)へアクセスして，Ner Project -> Upload Projectで先ほど作成したja-template.zipファイルをUpload．
-- Compilerの変更
+- Compilerの変更  
 左上のMenu -> CompilerのところをLaTeXに変更する．  
 main documentはmain.texに設定．
