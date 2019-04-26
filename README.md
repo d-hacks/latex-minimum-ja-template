@@ -11,8 +11,7 @@ git clone https://github.com/d-hacks/latex-minimum-ja-template.git
 ```
 cd latex-minimum-ja-template
 rm -rf .git
-rm -rf LICENSE
-rm -rf README.md
+rm LICENSE README.md
 ```
 - zipファイルを作成
 ```
