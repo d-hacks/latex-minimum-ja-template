@@ -1,10 +1,9 @@
-\documentclass[dvipdfmx, autodetect-engine, a4paper]{jsarticle}
+\documentclass[dvipdfmx, autodetect-engine, a4j, twocolumn]{jsarticle}
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{latexsym}
 \usepackage{amsmath}
 \usepackage{amsfonts}
-
 
 \newcommand\figref[1]{図\ref{#1}}
 \newcommand\tabref[1]{表\ref{#1}}
@@ -14,14 +13,25 @@
 \author{谷村 朋樹}
 \date{\empty}
 
+\begin{abstract}
+ここに概要を書く．
+ここに概要を書く．ここに概要を書く．ここに概要を書く．ここに概要を書く．ここに概要を書く．ここに概要を書く．
+ここに概要を書く．ここに概要を書く．ここに概要を書く．ここに概要を書く．ここに概要を書く．ここに概要を書く．
+ここに概要を書く．ここに概要を書く．ここに概要を書く．ここに概要を書く．ここに概要を書く．ここに概要を書く．
+ここに概要を書く．ここに概要を書く．ここに概要を書く．ここに概要を書く．ここに概要を書く．ここに概要を書く．
+\end{abstract}
 
 \begin{document}
 \maketitle
 
 % ただ文章を挿入したい時
-\input{sections/tmp.tex}
+% 第1章
+\input{sections/introduction.tex}
+% 第2章
+\input{sections/fig_tab_equ.tex}
+
 % ページを変えて挿入したい時
-\include{sections/tmp2}
+% \include{sections/tmp2}
 
 % ref.bibに追記していってもいいが，mendeleyアカウントを持っているなら，overleafのupload bib from mendeleyの機能を使った方が効率的．
 \bibliographystyle{unsrt}
